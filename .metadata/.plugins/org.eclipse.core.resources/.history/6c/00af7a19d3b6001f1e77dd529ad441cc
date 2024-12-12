@@ -1,0 +1,9 @@
+/******************************************************************************
+* File Name: radar_task.h
+*
+* Description: This file is the public interface of capsense_task.c source
+*              file.
+*
+* Related Document: README.md
+*
+*******************************************************************************

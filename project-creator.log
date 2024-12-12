@@ -1,0 +1,196 @@
+Loading the ModusToolbox Technology Packs and Early Access Packs
+Finished loading the ModusToolbox Technology Packs and Early Access Packs (1 ms)
+Loading the tools information
+Finished loading the tools information (28 ms)
+Loading the manifest data
+Loading super manfiest files from all sources
+Getting manifests from remote and/or local sources
+Processing system manifest 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Downloading super manifest file 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Finished loading super manifest files from all sources
+Finished download of file 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Starting to parse super manifest with URL 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Finished parsing super manifest with URL 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/cce-app-manifest/raw/v2.X/cce-app-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Altia-Marketing/altia-ce-manifest/raw/main/altia-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/avnet-iotconnect/avnet-iotc-mtb-ce-manifest/raw/main/avnet-iotc-mtb-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/CyberonEBU/cyberon-mtb-ce-manifest/raw/main/cyberon-mtb-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/edgeimpulse/edgeimpulse-ce-manifest/raw/main/edgeimpulse-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/golioth/mtb-golioth-ce-manifest/raw/main/mtb-golioth-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/memfault/mtb-memfault-ce-manifest/raw/main/mtb-memfault-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/rtlabs-com/mtb-rtlabs-manifest/raw/main/mtb-ce-manifest-fv2-rtlabs.xml'
+Downloading manifest file 'https://github.com/RutronikSystemSolutions/rutronik-ce-manifest/raw/main/rutronik-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/sensiml/sensiml-ce-manifest/raw/main/sensiml-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-capabilities-manifest.json'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Inventek/inventek-bsp-manifest/raw/main/inventek-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Inventek/inventek-bsp-manifest/raw/main/inventek-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/avnet-iotconnect/avnet-iotc-mtb-mw-manifest/raw/main/avnet-iotc-mtb-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/CyberonEBU/cyberon-mtb-mw-manifest/raw/main/cyberon-mtb-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/golioth/mtb-golioth-mw-manifest/raw/main/mtb-golioth-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/memfault/mtb-memfault-mw-manifest/raw/main/mtb-memfault-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/rtlabs-com/mtb-rtlabs-manifest/raw/main/rtlabs-mtb-mw-manifest-fw2-rtlabs.xml'
+Downloading manifest file 'https://github.com/sensiml/sensiml-mw-manifest/raw/main/sensiml-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/cce-app-manifest/raw/v2.X/cce-app-manifest-fv2.xml'
+Finished download of file 'https://github.com/Altia-Marketing/altia-ce-manifest/raw/main/altia-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/avnet-iotconnect/avnet-iotc-mtb-ce-manifest/raw/main/avnet-iotc-mtb-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/CyberonEBU/cyberon-mtb-ce-manifest/raw/main/cyberon-mtb-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/edgeimpulse/edgeimpulse-ce-manifest/raw/main/edgeimpulse-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/golioth/mtb-golioth-ce-manifest/raw/main/mtb-golioth-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/memfault/mtb-memfault-ce-manifest/raw/main/mtb-memfault-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/rtlabs-com/mtb-rtlabs-manifest/raw/main/mtb-ce-manifest-fv2-rtlabs.xml'
+Finished download of file 'https://github.com/RutronikSystemSolutions/rutronik-ce-manifest/raw/main/rutronik-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/sensiml/sensiml-ce-manifest/raw/main/sensiml-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-capabilities-manifest.json'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Inventek/inventek-bsp-manifest/raw/main/inventek-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/Inventek/inventek-bsp-manifest/raw/main/inventek-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/RutronikSystemSolutions/rutronik-bsp-manifest/raw/main/rutronik-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/avnet-iotconnect/avnet-iotc-mtb-mw-manifest/raw/main/avnet-iotc-mtb-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/CyberonEBU/cyberon-mtb-mw-manifest/raw/main/cyberon-mtb-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/golioth/mtb-golioth-mw-manifest/raw/main/mtb-golioth-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/memfault/mtb-memfault-mw-manifest/raw/main/mtb-memfault-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/rtlabs-com/mtb-rtlabs-manifest/raw/main/rtlabs-mtb-mw-manifest-fw2-rtlabs.xml'
+Finished download of file 'https://github.com/sensiml/sensiml-mw-manifest/raw/main/sensiml-mw-manifest-fv2.xml'
+Finished loading the manifest data (2426 ms)
+0 error(s), 0 warning(s)
+
+Summary: 
+
+BSP: CY8CPROTO-062-4343W
+Template Application(s): ADC basic
+Application(s) Root Path: C:/Security_system
+
+Press "Create" to create the selected application(s).
+
+Collecting application data...
+
+Info: The following entered on the command line will create the exact same project as that created with the GUI tool:
+C:/Users/lucab/ModusToolbox/tools_3.2/project-creator/project-creator-cli.exe --board-id CY8CPROTO-062-4343W --board-uri https://github.com/cypresssemiconductorco/TARGET_CY8CPROTO-062-4343W --board-commit latest-v4.X --app-id mtb-example-hal-adc-basic --app-uri https://github.com/Infineon/mtb-example-hal-adc-basic --app-commit latest-v2.X --target-dir C:/Security_system --user-app-name ADC_basic --use-modus-shell
+
+Starting application creation for 'C:/Security_system/ADC_basic'.
+Acquiring the application source 'https://github.com/Infineon/mtb-example-hal-adc-basic'.
+Acquired application source successfully.
+Loading the application.
+Loaded the application successfully.
+Processing project 'ADC_basic'.
+Starting to commit changes to the filesystem and project 'mtb-example-hal-adc-basic'.
+Writing mtb file for asset 'CY8CPROTO-062-4343W' to the folder 'C:/Security_system/ADC_basic/deps'.
+Writing mtb file for asset 'cat1cm0p' to the folder 'C:/Security_system/ADC_basic/libs'.
+Writing mtb file for asset 'core-lib' to the folder 'C:/Security_system/ADC_basic/libs'.
+Writing mtb file for asset 'core-make' to the folder 'C:/Security_system/ADC_basic/libs'.
+Writing mtb file for asset 'mtb-hal-cat1' to the folder 'C:/Security_system/ADC_basic/libs'.
+Writing mtb file for asset 'mtb-pdl-cat1' to the folder 'C:/Security_system/ADC_basic/libs'.
+Writing mtb file for asset 'recipe-make-cat1a' to the folder 'C:/Security_system/ADC_basic/libs'.
+Writing mtb file for asset 'cmsis' to the folder 'C:/Security_system/ADC_basic/libs'.
+Writing mtb file for asset 'device-db' to the folder 'C:/Security_system/ADC_basic/libs'.
+Writing mtb file for asset 'retarget-io' to the folder 'C:/Security_system/ADC_basic/deps'.
+Starting: git -C C:/Security_system/ADC_basic/libs clone --origin cypress --no-checkout --filter=blob:none https://github.com/cypresssemiconductorco/TARGET_CY8CPROTO-062-4343W TARGET_CY8CPROTO-062-4343W
+Starting: git -C C:/Security_system/mtb_shared/retarget-io/release-v1.6.0 -c advice.detachedHead=false checkout release-v1.6.0 --force
+Starting: git -C C:/Security_system/mtb_shared/cat1cm0p/release-v1.7.0 -c advice.detachedHead=false checkout release-v1.7.0 --force
+Starting: git -C C:/Security_system/mtb_shared/core-lib/release-v1.4.2 -c advice.detachedHead=false checkout release-v1.4.2 --force
+Cloning into 'TARGET_CY8CPROTO-062-4343W'...
+HEAD is now at ff914ca Upload cat1cm0p 1.7.0.499 [2752]
+Success: git -C C:/Security_system/mtb_shared/cat1cm0p/release-v1.7.0 -c advice.detachedHead=false checkout release-v1.7.0 --force
+Starting: git -C C:/Security_system/mtb_shared/core-make clone --origin cypress --no-checkout --filter=blob:none https://github.com/cypresssemiconductorco/core-make release-v3.4.1
+Cloning into 'release-v3.4.1'...
+HEAD is now at 33bd0e3 Upload retarget-io [2708]
+Success: git -C C:/Security_system/mtb_shared/retarget-io/release-v1.6.0 -c advice.detachedHead=false checkout release-v1.6.0 --force
+Starting: git -C C:/Security_system/mtb_shared/mtb-hal-cat1/release-v2.6.1 -c advice.detachedHead=false checkout release-v2.6.1 --force
+Success: git -C C:/Security_system/ADC_basic/libs clone --origin cypress --no-checkout --filter=blob:none https://github.com/cypresssemiconductorco/TARGET_CY8CPROTO-062-4343W TARGET_CY8CPROTO-062-4343W
+Starting: git -C C:/Security_system/mtb_shared/mtb-pdl-cat1 clone --origin cypress --no-checkout --filter=blob:none https://github.com/cypresssemiconductorco/mtb-pdl-cat1 release-v3.12.1
+Cloning into 'release-v3.12.1'...
+HEAD is now at e28913a Upload core-lib [2455]
+Success: git -C C:/Security_system/mtb_shared/core-lib/release-v1.4.2 -c advice.detachedHead=false checkout release-v1.4.2 --force
+Starting: git -C C:/Security_system/mtb_shared/recipe-make-cat1a clone --origin cypress --no-checkout --filter=blob:none https://github.com/cypresssemiconductorco/recipe-make-cat1a release-v2.3.1
+Cloning into 'release-v2.3.1'...
+Success: git -C C:/Security_system/mtb_shared/core-make clone --origin cypress --no-checkout --filter=blob:none https://github.com/cypresssemiconductorco/core-make release-v3.4.1
+Starting: git -C C:/Security_system/mtb_shared/cmsis/release-v5.8.1 -c advice.detachedHead=false checkout release-v5.8.1 --force
+Success: git -C C:/Security_system/mtb_shared/mtb-pdl-cat1 clone --origin cypress --no-checkout --filter=blob:none https://github.com/cypresssemiconductorco/mtb-pdl-cat1 release-v3.12.1
+Starting: git -C C:/Users/lucab/.modustoolbox/global/device-db/release-v4.19.0 -c advice.detachedHead=false checkout release-v4.19.0 --force
+Success: git -C C:/Security_system/mtb_shared/recipe-make-cat1a clone --origin cypress --no-checkout --filter=blob:none https://github.com/cypresssemiconductorco/recipe-make-cat1a release-v2.3.1
+Starting: git -C C:/Security_system/ADC_basic/libs/TARGET_CY8CPROTO-062-4343W -c advice.detachedHead=false checkout release-v4.3.2 --force
+fatal: Unable to create '/cygdrive/c/Users/lucab/.modustoolbox/global/device-db/release-v4.19.0/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+Failure: git -C C:/Users/lucab/.modustoolbox/global/device-db/release-v4.19.0 -c advice.detachedHead=false checkout release-v4.19.0 --force
+Starting: git -C C:/Security_system/mtb_shared/core-make/release-v3.4.1 -c advice.detachedHead=false checkout release-v3.4.1 --force
+HEAD is now at 79de3ac Upload core-make 3.4.1.6167 [2900]
+Success: git -C C:/Security_system/mtb_shared/core-make/release-v3.4.1 -c advice.detachedHead=false checkout release-v3.4.1 --force
+Starting: git -C C:/Security_system/mtb_shared/mtb-pdl-cat1/release-v3.12.1 -c advice.detachedHead=false checkout release-v3.12.1 --force
+HEAD is now at c0dc092 Upload TARGET_CY8CPROTO-062-4343W [2752]
+Success: git -C C:/Security_system/ADC_basic/libs/TARGET_CY8CPROTO-062-4343W -c advice.detachedHead=false checkout release-v4.3.2 --force
+Starting: git -C C:/Security_system/mtb_shared/recipe-make-cat1a/release-v2.3.1 -c advice.detachedHead=false checkout release-v2.3.1 --force
+HEAD is now at 7d17679 Upload cmsis 5.8.1.114 [2752]
+Success: git -C C:/Security_system/mtb_shared/cmsis/release-v5.8.1 -c advice.detachedHead=false checkout release-v5.8.1 --force
+HEAD is now at 6bd7d3d Upload recipe-make-cat1a 2.3.1.6098 [2900]
+Success: git -C C:/Security_system/mtb_shared/recipe-make-cat1a/release-v2.3.1 -c advice.detachedHead=false checkout release-v2.3.1 --force
+HEAD is now at 56ee340 Upload mtb-hal-cat1 [2593]
+Success: git -C C:/Security_system/mtb_shared/mtb-hal-cat1/release-v2.6.1 -c advice.detachedHead=false checkout release-v2.6.1 --force
+HEAD is now at f81db05 Upload mtb-pdl-cat1 3.12.1.37059 [2864]
+Success: git -C C:/Security_system/mtb_shared/mtb-pdl-cat1/release-v3.12.1 -c advice.detachedHead=false checkout release-v3.12.1 --force
+Failed to commit changes to the project 'mtb-example-hal-adc-basic'.
+Failed to process project 'ADC_basic'.
+Application creation failed.
+ERROR:there was an error retreiving the asset 'https://github.com/Infineon/device-db' commit 'release-v4.19.0' - fatal: Unable to create '/cygdrive/c/Users/lucab/.modustoolbox/global/device-db/release-v4.19.0/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+command 'C:/Users/lucab/ModusToolbox/tools_3.2/modus-shell/bin/bash -c git -C C:/Users/lucab/.modustoolbox/global/device-db/release-v4.19.0 -c advice.detachedHead=false checkout release-v4.19.0 --force'
+  directory 'C:/Users/lucab/ModusToolbox/tools_3.2/dashboard'
+  child process exited with error code 128
+ERROR:Project 'ADC_basic' in application directory 'C:/Security_system/ADC_basic' - the getlibs operation failed
+
+Skipping export of the "ADC_basic" application to Eclipse IDE for ModusToolbox™.
+2 error(s), 0 warning(s)
+
+Summary:
+
+ERROR:Failed to create and export "ADC_basic" application.
+

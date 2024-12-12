@@ -1,0 +1,132 @@
+/*******************************************************************************
+* File Name: radar_task.c
+*
+* Description: This file contains the task that handles human sensing using the hlk-ld2410b module.
+*
+* Related Document: README.md
+*
+*******************************************************************************
+/******************************************************************************
+* Header files includes
+******************************************************************************/
+#include "radar_task.h"
+#include "cybsp.h"
+#include "cyhal.h"
+#include "cycfg.h"
+#include "cycfg_capsense.h"
+#include "FreeRTOS.h"
+#include "task.h"
+#include "queue.h"
+#include "timers.h"
+
+/*******************************************************************************
+* Global constants
+*******************************************************************************/
+#define CAPSENSE_INTERRUPT_PRIORITY    (7u)
+#define EZI2C_INTERRUPT_PRIORITY    (6u)    /* EZI2C interrupt priority must be
+                                             * higher than CapSense interrupt
+                                             */
+#define CAPSENSE_SCAN_INTERVAL_MS    (10u)   /* in milliseconds*/
+//TODO: define these for this specific task, for now theyre stolen from capsense task.
+#define DATA_BITS_8     8
+#define STOP_BITS_1     1
+#define BAUD_RATE       115200
+#define UART_DELAY      10u
+#define RX_BUF_SIZE     4
+#define TX_BUF_SIZE     4
+
+/*******************************************************************************
+* Function Prototypes
+*******************************************************************************/
+//TODO: include forward declaration or idk what this does
+
+/******************************************************************************
+* Global variables
+******************************************************************************/
+QueueHandle_t capsense_command_q;
+QueueHandle_t led_command_data_q;
+QueueHandle_t slider_data_q;
+
+TimerHandle_t scan_timer_handle;
+cy_stc_scb_ezi2c_context_t ezi2c_context;
+cyhal_ezi2c_t sEzI2C;
+cyhal_ezi2c_slave_cfg_t sEzI2C_sub_cfg;
+cyhal_ezi2c_cfg_t sEzI2C_cfg;
+
+/* SysPm callback params */
+cy_stc_syspm_callback_params_t callback_params =
+{
+    .base       = CYBSP_CSD_HW,
+    .context    = &cy_capsense_context
+};
+
+cy_stc_syspm_callback_t capsense_deep_sleep_cb =
+{
+    Cy_CapSense_DeepSleepCallback,
+    CY_SYSPM_DEEPSLEEP,
+    (CY_SYSPM_SKIP_CHECK_FAIL | CY_SYSPM_SKIP_BEFORE_TRANSITION | CY_SYSPM_SKIP_AFTER_TRANSITION),
+    &callback_params,
+    NULL,
+    NULL
+};
+//TODO: figure out what is still needed, and what can be removed.
+cy_rslt_t    rslt;
+cyhal_uart_t uart_obj;
+uint32_t     actualbaud;
+uint8_t      tx_buf[TX_BUF_SIZE] = { '1', '2', '3', '4' };
+uint8_t      rx_buf[RX_BUF_SIZE];
+size_t       tx_length = TX_BUF_SIZE;
+size_t       rx_length = RX_BUF_SIZE;
+uint32_t     value     = 'A';
+
+/*******************************************************************************
+* Function Name: handle_error
+********************************************************************************
+* Summary:
+* User defined error handling function
+*
+* Parameters:
+*  void
+*
+* Return:
+*  void
+*
+*******************************************************************************/
+void handle_error(void)
+{
+    /* Disable all interrupts. */
+    __disable_irq();
+
+    CY_ASSERT(0);
+}
+
+//TODO: implement the radar module
+//TODO: 1. implement UART reading and printing
+//TODO: 2. implement parsing
+//TODO: 3. implement queue for data transferring to MQTT
+
+/*******************************************************************************
+* Initializing the UART
+********************************************************************************/
+void init_uart(void)
+{
+	const cyhal_uart_cfg_t uart_config =
+	{
+		.data_bits      = DATA_BITS_8,
+		.stop_bits      = STOP_BITS_1,
+		.parity         = CYHAL_UART_PARITY_NONE,
+		.rx_buffer      = rx_buf,
+		.rx_buffer_size = RX_BUF_SIZE
+	};
+
+	// Initialize the UART Block
+	rslt = cyhal_uart_init(&uart_obj, TX_WS, RX_WS, NC, NC, NULL,
+	                       &uart_config);
+
+	// Set the baud rate
+	rslt = cyhal_uart_set_baud(&uart_obj, BAUD_RATE, &actualbaud);
+
+
+}
+
+

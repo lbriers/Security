@@ -1,0 +1,35 @@
+/*******************************************************************************
+* File Name: radar_task.c
+*
+* Description: This file contains the task that handles human sensing using the hlk-ld2410b module.
+*
+* Related Document: README.md
+*
+*******************************************************************************
+/******************************************************************************
+* Header files includes
+******************************************************************************/
+#include "radar_task.h"
+#include "cybsp.h"
+#include "cyhal.h"
+#include "cycfg.h"
+#include "cycfg_capsense.h"
+#include "FreeRTOS.h"
+#include "task.h"
+#include "queue.h"
+#include "timers.h"
+
+/*******************************************************************************
+* Global constants
+*******************************************************************************/
+#define CAPSENSE_INTERRUPT_PRIORITY    (7u)
+#define EZI2C_INTERRUPT_PRIORITY    (6u)    /* EZI2C interrupt priority must be
+                                             * higher than CapSense interrupt
+                                             */
+#define CAPSENSE_SCAN_INTERVAL_MS    (10u)   /* in milliseconds*/
+//TODO: define these for this specific task, for now theyre stolen from capsense task.
+
+/*******************************************************************************
+* Function Prototypes
+*******************************************************************************/
+//TODO: include forward declaration or idk what this does

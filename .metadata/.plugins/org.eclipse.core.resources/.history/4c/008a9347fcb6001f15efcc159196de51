@@ -1,0 +1,18 @@
+/******************************************************************************
+* File Name: radar_task.h
+*
+* Description: This file is the public interface of radar_task.c source
+*              file.
+*
+* Related Document: README.md
+*
+*******************************************************************************
+/*******************************************************************************
+ * Header file includes
+ ******************************************************************************/
+#include "FreeRTOS.h"
+#include "task.h"
+#include "queue.h"
+
+void init_uart(void);
+uint8_t read_radar_RX(void);

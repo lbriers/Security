@@ -1,0 +1,89 @@
+/*******************************************************************************
+* File Name: radar_task.c
+*
+* Description: This file contains the task that handles human sensing using the hlk-ld2410b module.
+*
+* Related Document: README.md
+*
+*******************************************************************************
+/******************************************************************************
+* Header files includes
+******************************************************************************/
+#include "radar_task.h"
+#include "cybsp.h"
+#include "cyhal.h"
+#include "cycfg.h"
+#include "cycfg_capsense.h"
+#include "FreeRTOS.h"
+#include "task.h"
+#include "queue.h"
+#include "timers.h"
+
+/*******************************************************************************
+* Global constants
+*******************************************************************************/
+#define CAPSENSE_INTERRUPT_PRIORITY    (7u)
+#define EZI2C_INTERRUPT_PRIORITY    (6u)    /* EZI2C interrupt priority must be
+                                             * higher than CapSense interrupt
+                                             */
+#define CAPSENSE_SCAN_INTERVAL_MS    (10u)   /* in milliseconds*/
+//TODO: define these for this specific task, for now theyre stolen from capsense task.
+#define DATA_BITS_8     8
+#define STOP_BITS_1     1
+#define BAUD_RATE       115200
+#define UART_DELAY      10u
+#define RX_BUF_SIZE     4
+#define TX_BUF_SIZE     4
+
+/*******************************************************************************
+* Function Prototypes
+*******************************************************************************/
+//TODO: include forward declaration or idk what this does
+
+/******************************************************************************
+* Global variables
+******************************************************************************/
+
+//TODO: figure out what is still needed, and what can be removed.
+cy_rslt_t    rslt;
+cyhal_uart_t uart_obj;
+uint32_t     actualbaud;
+uint8_t      tx_buf[TX_BUF_SIZE] = { '1', '2', '3', '4' };
+uint8_t      rx_buf[RX_BUF_SIZE];
+size_t       tx_length = TX_BUF_SIZE;
+size_t       rx_length = RX_BUF_SIZE;
+
+//TODO: implement the radar module
+//TODO: 1. implement UART reading and printing
+//TODO: 2. implement parsing
+//TODO: 3. implement queue for data transferring to MQTT
+
+/*******************************************************************************
+* Initializing the UART
+********************************************************************************/
+void init_uart(void)
+{
+	const cyhal_uart_cfg_t uart_config =
+	{
+		.data_bits      = DATA_BITS_8,
+		.stop_bits      = STOP_BITS_1,
+		.parity         = CYHAL_UART_PARITY_NONE,
+		.rx_buffer      = rx_buf,
+		.rx_buffer_size = RX_BUF_SIZE
+	};
+
+	// Initialize the UART Block
+	rslt = cyhal_uart_init(&uart_obj, P5_2, P5_5, NC, NC, NULL,
+	                       &uart_config);
+
+	// Set the baud rate
+	rslt = cyhal_uart_set_baud(&uart_obj, BAUD_RATE, &actualbaud);
+}
+
+uint8_t read_radar_RX(void){
+	//cyhal_uart_read(&uart_obj, (void*)rx_buf, &rx_length);
+	cyhal_uart_read(&uart_obj, (void*)rx_buf, RX_BUF_SIZE);
+	return rx_buf;
+}
+
+
